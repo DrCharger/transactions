@@ -1,0 +1,36 @@
+{
+  "name": "transactions",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc && vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "@chakra-ui/icons": "^2.0.17",
+    "@chakra-ui/react": "^2.4.9",
+    "axios": "^1.3.2",
+    "framer-motion": "^9.0.1",
+    "localforage": "^1.10.0",
+    "match-sorter": "^6.3.1",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-hook-form": "^7.43.0",
+    "react-papaparse": "^4.1.0",
+    "react-redux": "^8.0.5",
+    "react-router-dom": "^6.8.0",
+    "redux-thunk": "^2.4.2",
+    "sort-by": "^1.2.0",
+    "styled-components": "^5.3.6"
+  },
+  "devDependencies": {
+    "@types/react": "^18.0.27",
+    "@types/react-dom": "^18.0.10",
+    "@vitejs/plugin-react": "^3.1.0",
+    "axios-mock-adapter": "^1.21.2",
+    "typescript": "^4.9.3",
+    "vite": "^4.1.0"
+  }
+}
